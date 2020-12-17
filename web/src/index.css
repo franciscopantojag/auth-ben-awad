@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+@media (hover: hover) {
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.container {
+  width: calc(100% - 2.4rem);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.usersUl > li {
+  margin-bottom: 1em;
+}
+.usersUl > li:last-child {
+  margin-bottom: 0;
+}
+
+.formRow {
+  margin-bottom: 1em;
+}
+.formRow:last-child {
+  margin-bottom: 0;
+}
+
+.registerPage .formRow {
+  margin-bottom: 0.7em;
+}
+.formRow:last-child {
+  margin-bottom: 0;
+}
+
+header ul li {
+  margin-bottom: 0.5em;
+}
+header ul li:last-child {
+  margin-bottom: 0;
+}
